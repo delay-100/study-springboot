@@ -1,4 +1,4 @@
-package com.cos.security1.auth;
+package com.cos.security1.config.auth;
 
 import com.cos.security1.Repository.UserRepository;
 import com.cos.security1.model.User;
@@ -20,6 +20,7 @@ public class PrincipleDetailsService implements UserDetailsService {
     // 이 메소드에서  return new PrincipleDetails(userEntity);
     // 이렇게 리턴해주면 자동으로 session(내부 Authentication(내부 UserDetails)) 이렇게 들어가짐
     // 이럼 로그인이 완료가 됨
+    // 함수 종료 시 @AuthenticationPrincipal 어노테이션이 만들어진다
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         System.out.println("username: "+ username);

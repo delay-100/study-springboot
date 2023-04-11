@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6d40bd4-a9d3-4694-b356-0dd511bc93cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/entity/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/entity/Authority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jwt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/Repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/auth/PrincipleDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/auth/PrincipleDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/auth/PrincipleDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/auth/PrincipleDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/oauth/PrincipalOauth2UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/oauth/PrincipalOauth2UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/resources/templates/joinForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/resources/templates/joinForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security1/src/main/resources/templates/loginForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/resources/templates/loginForm.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/security1">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OHiJ0gqTwIuceXbKTOwlUyhG87" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/git/study-springboot/springsecurity/jwt/security1",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Security1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cos.security1.Security1Application" />
+      <module name="security1.security1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cos.security1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Security1Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\백지연\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6d40bd4-a9d3-4694-b356-0dd511bc93cd" name="Changes" comment="" />
+      <created>1681223832159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681223832159</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
