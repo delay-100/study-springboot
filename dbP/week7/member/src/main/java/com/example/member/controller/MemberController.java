@@ -5,8 +5,11 @@ import com.example.member.dto.MemberForm;
 import com.example.member.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+
+import java.util.List;
 
 @Controller
 public class MemberController {
@@ -32,5 +35,12 @@ public class MemberController {
         System.out.println("member.name= "+member.getName());
         memberService.join(member); // 회원가입 로직 처리 함수 - MemberService 클래스 만든 후, 스프링 컨테이너에 Bean으로 등록하고, 의존성 주입을 해야 오류가 사라짐
         return "redirect:/";
+    }
+
+    @GetMapping(value="/members")
+    public String list(Model model){
+        List<Member> members = memberService.findMembers();
+        model.addAttribute("members",members);
+        return "members/memberList";
     }
 }

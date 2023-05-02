@@ -4,6 +4,8 @@ import com.example.member.domain.Member;
 import com.example.member.repository.MemberRepository;
 import org.springframework.context.annotation.Bean;
 
+import java.util.List;
+
 
 public class MemberService {
     private final MemberRepository memberRepository;
@@ -29,5 +31,9 @@ public class MemberService {
     }
 
     private void validateDuplicateMember(Member member) {
+    }
+
+    public List<Member> findMembers() {
+        return memberRepository.findAll();
     }
 }
