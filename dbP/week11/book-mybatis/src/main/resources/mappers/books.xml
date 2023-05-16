@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bookmybatis.repository.MybatisBookRepository">
+    <select id="findAll" resultType="BookEntity">
+        select
+        *
+        from
+        book
+    </select>
+
+    <select id="findCond" parameterType="BookEntity" resultType="BookEntity">
+        select
+        *
+        from
+        book
+        where name like concat('%',#{name}, '%')
+        and publisher like concat('%',#{publisher}, '%');
+    </select>
+
+    <insert id="save" parameterType="BookEntity" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        insert into book
+        (name, publisher, price)
+        values
+        (#{name}, #{publisher}, #{price})
+    </insert>
+
+    <select id="findById" parameterType="Long" resultType="BookEntity">
+        select
+        *
+        from
+        book
+        where
+        id = #{id}
+    </select>
+
+    <update id="update" parameterType="BookEntity">
+        update book set
+        name = #{name}, publisher = #{publisher}, price = #{price}
+        where
+        id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="BookEntity">
+        delete from book
+        where
+        id = #{id}
+    </delete>
+
+</mapper>

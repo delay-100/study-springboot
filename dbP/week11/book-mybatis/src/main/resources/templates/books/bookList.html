@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8">
+    <title>도서 목록</title>
+  </head>
+  <body>
+  <div class="container">
+    <div>
+      <h1><a href="/">도서 관리 시스템</a> </h1>
+      <table border ="1" width="50%" height=200 bordercolor="black">
+        <thead>
+        <tr>
+          <th colspan="4">도서 목록</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>id</td>
+          <td>name</td>
+          <td>publisher</td>
+          <td>price</td>
+
+        </tr>
+        <tr th:each="book : ${books}">
+          <td th:text="${book.id}"></td>
+          <td th:text="${book.name}"></td>
+          <td th:text="${book.publisher}"></td>
+          <td th:text="${book.price}"></td>
+          <td><a th:href="@{/books/{id}/update(id = ${book.id})}">수정</a></td>
+          <td><a th:href="@{/books/{id}/delete(id = ${book.id})}">삭제</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div> <!-- /container -->
+  </body>
+</html>
