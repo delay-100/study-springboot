@@ -17,7 +17,7 @@ public class AppConfig {
     // 실제 애플리케이션에 필요한 동작들 설정
     // 객체의 생성과 연결을 담당함 
 
-    @Bean
+    @Bean// memberservice는 memberRepository를 주입할거야!! 라고 함
     public MemberService memberService() {
         // 생성자 주입
         return new MemberServiceImpl(memberRepository());

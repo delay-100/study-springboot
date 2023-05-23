@@ -1,2 +1,9 @@
-package hello.core;public class HelloLombok {
+package hello.core;
+
+import lombok.Getter;
+
+@Getter
+@Setter
+public class HelloLombok {
+
 }

@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6d40bd4-a9d3-4694-b356-0dd511bc93cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/entity/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/java/com/example/jwttutorial/entity/Authority.java" afterDir="false" />
@@ -13,20 +12,9 @@
       <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt-turtorial/jwt-tutorial/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/jwt.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/Repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/auth/PrincipleDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/auth/PrincipleDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/auth/PrincipleDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/auth/PrincipleDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/oauth/PrincipalOauth2UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/config/oauth/PrincipalOauth2UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/java/com/cos/security1/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/resources/templates/joinForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/resources/templates/joinForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security1/src/main/resources/templates/loginForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/security1/src/main/resources/templates/loginForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jwt2/jwt/src/main/java/com/cos/jwt/jwt/config/jwt/JwtAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jwt2/jwt/src/main/java/com/cos/jwt/jwt/config/jwt/JwtAuthorizationFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +38,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -65,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/git/study-springboot/springsecurity/jwt/security1",
+    "last_opened_file_path": "D:/git/knu-capstone-rudoori/RUDoori-",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

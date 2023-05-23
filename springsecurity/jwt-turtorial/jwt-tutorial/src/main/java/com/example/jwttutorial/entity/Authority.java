@@ -1,4 +1,4 @@
-package com.example.jwttutorial.Entity;
+package com.example.jwttutorial.entity;
 
 import lombok.*;
 
@@ -16,7 +16,7 @@ import jakarta.persistence.Table;
 @NoArgsConstructor
 public class Authority {
 
-    @Id
+    @Id // 권한명(pk)
     @Column(name = "authority_name", length = 50)
     private String authorityName;
 }
