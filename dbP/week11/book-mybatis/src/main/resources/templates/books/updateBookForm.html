@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>도서 정보 수정</title>
+</head>
+<body>
+<h2>도서 정보 수정하기 </h2>
+<h4>아래 입력 폼에 수정할 정보를 입력하시오. </h4>
+<div class="container">
+  <form th:action="@{/books/{uid}(uid = ${book.id})}" th:method="post">
+    <div class="form-group">
+      <p><label for="name">제목</label>
+        <input type="text" id="name" name="name" th:value="${book.name}" placeholder="제목을 입력하세요">
+      </p>
+      <p><label for="publisher">저자</label>
+        <input type="text" id="publisher" name="publisher" th:value="${book.publisher}" placeholder="저자를 입력하세요">
+      </p>
+      <p><label for="price">가격</label>
+        <input type="text" id="price" name="price" th:value="${book.price}" placeholder="가격을 입력하세요">
+      </p>
+    </div>
+    <button type="submit">수정</button>
+  </form>
+</div> <!-- /container -->
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>도서 삭제</title>
+</head>
+<body>
+<div class="container">
+  <h2>도서 정보 삭제하기 </h2>
+  <h4>아래 도서 정보를 삭제하시겠습니까? </h4>
+
+  <form th:action="@{/books/{uid}/delete(uid = ${book.id})}" th:method="post">
+
+    <table border="1">
+      <tr>
+        <td>id</td>
+        <td th:text="${book.id}"></td>
+      </tr>
+      <tr>
+        <td>name</td>
+        <td th:text="${book.name}"></td>
+      </tr>
+      <tr>
+        <td>publisher</td>
+        <td th:text="${book.publisher}"></td>
+      </tr>
+      <tr>
+        <td>price</td>
+        <td th:text="${book.price}"></td>
+      </tr>
+    </table>
+    <p></p>
+    <button type="submit">삭제</button>
+  </form>
+</div> <!-- /container -->
+</body>
+</html>

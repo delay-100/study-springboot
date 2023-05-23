@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>도서 검색</title>
+</head>
+<body>
+<div class="container">
+    <form action="/books/search" method="post">
+        <div class="form-group">
+            <h1><a href="/">도서 관리 시스템</a> </h1>
+            <p><label for="name">제목</label>
+                <input type="text" id="name" name="name" placeholder="제목을 입력하세요">
+            </p>
+            <p><label for="publisher">저자</label>
+                <input type="text" id="publisher" name="publisher" placeholder="저자를 입력하세요">
+            </p>
+        </div>
+        <button type="submit">검색</button>
+        <button type="reset">취소</button>
+    </form>
+</div> <!-- /container -->
+</body>
+</html>
